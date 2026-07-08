@@ -22,6 +22,12 @@ Explique qual problema ou necessidade essa funcionalidade atende.
 
 Descreva como imagina que essa funcionalidade possa funcionar.
 
+O que será criado?
+Como o usuário utilizará essa funcionalidade?
+O que deve acontecer quando ela for utilizada?
+Existem regras de negócio?
+Há alguma validação?
+
 ---
 
 ## 🔄 Alternativas consideradas
