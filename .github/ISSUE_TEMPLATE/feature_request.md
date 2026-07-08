@@ -2,7 +2,7 @@
 name: ✨ Solicitação de Funcionalidade
 about: Sugira uma nova funcionalidade para o projeto.
 title: "[FEAT]: "
-labels: enhancement
+labels: feature
 assignees: ""
 ---
 
