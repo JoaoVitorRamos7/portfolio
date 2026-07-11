@@ -1,11 +1,9 @@
-import { useState } from 'react'
+import HomePage from './pages/HomePage'
 
 
 function App() {
     return (
-        <div className="App">
-            <h1>Portfolio</h1>
-        </div>
+       <HomePage/>
     )
 }
 
