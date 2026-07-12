@@ -1,41 +1,29 @@
 ---
-name: ✨ Solicitação de Funcionalidade
-about: Sugira uma nova funcionalidade para o projeto.
-title: "[FEAT]: "
-labels: feature
-assignees: ""
----
-
-## 📋 Descrição
-
-Descreva a funcionalidade desejada.
+name: Feature Request
+about: >
+    Commits que adicionam novas funcionalidades ou recursos ao projeto. Exemplo: página de perfil, modo escuro ou integração com uma nova API.
+title: '[feat]:'
+labels: ['feature']
+assignees: []
 
 ---
 
-## 🎯 Problema que ela resolve
+## Summary
 
-Explique qual problema ou necessidade essa funcionalidade atende.
+Adicionar um botão de alternância para o modo escuro no menu de configurações, permitindo que os usuários alternem entre os temas claro e escuro.
 
----
+## Motivation
 
-## 💡 Solução proposta
+Solicitado pelos usuários para melhorar a acessibilidade e o conforto visual em ambientes com pouca iluminação.
 
-Descreva como imagina que essa funcionalidade possa funcionar.
+## Tasks
 
-O que será criado?
-Como o usuário utilizará essa funcionalidade?
-O que deve acontecer quando ela for utilizada?
-Existem regras de negócio?
-Há alguma validação?
+- [ ] Criar componente de alternância
+- [ ] Atualizar o contexto/estado do tema
+- [ ] Armazenar a preferência no `localStorage`
+- [ ] Adicionar estilos para o tema escuro
+- [ ] Testar a lógica de alternância de tema
 
----
+## Definition of Done
 
-## 🔄 Alternativas consideradas
-
-Caso exista outra solução possível, descreva-a aqui.
-
----
-
-## 📝 Informações adicionais
-
-Adicione qualquer contexto ou referência relevante.
+O botão de alternância do modo escuro está visível nas configurações e mantém a preferência do usuário entre as sessões.

@@ -1,25 +1,23 @@
 ---
-name: 🧪 Testes
-about: Solicite criação ou melhoria dos testes.
-title: "[TEST]: "
-labels: test
-assignees: ""
+name: Test Request
+about: >
+    Commits que adicionam novos testes, melhoram testes existentes ou corrigem testes com falha.
+    Exemplo: adicionar testes unitários para um novo componente ou atualizar mocks para testes de integração.
+title: '[test]:'
+labels: ['test']
+assignees: []
 ---
+## Summary
 
-## 📋 Descrição
+Adicionar os testes unitários ausentes para a lógica de login, logout e renovação de token no `AuthService`.
 
-Descreva os testes que devem ser implementados.
+## Tasks
 
----
+- [ ] Testar login com credenciais válidas
+- [ ] Testar login com credenciais inválidas
+- [ ] Testar se o logout remove o token
+- [ ] Testar o comportamento da renovação de token
 
-## 🎯 Objetivo
+## Coverage Goal
 
-O que será validado pelos testes?
-
----
-
-## ✅ Critérios
-
-- [ ] Testes unitários
-- [ ] Testes de integração
-- [ ] Cobertura atualizada
+Alcançar pelo menos 90% de cobertura para `auth/AuthService.ts`.
