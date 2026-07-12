@@ -1,5 +1,5 @@
 ---
-name: ✅ Tarefa
+name:  Tarefa
 about: Criar uma tarefa técnica.
 title: "[CHORE]: "
 labels: chore

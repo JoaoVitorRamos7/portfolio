@@ -1,5 +1,5 @@
 ---
-name: 🐞 Relatar Bug
+name:  Relatar Bug
 about: Reporte um problema para nos ajudar a melhorar o projeto.
 title: "[BUG]: "
 labels: bug
