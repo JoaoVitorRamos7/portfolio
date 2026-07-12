@@ -1,7 +1,7 @@
 ---
 name: Operational Request
 about: >
-    Commits relacionados a pipelines de deploy de infraestrutura, monitoramento, backups ou tarefas operacionais. Exemplo: Configuração de scripts de provisionamento de servidores, adição de backups de banco de dados ou atualização de ambientes de deploy.
+    Commits relacionados a pipelines de deploy, infraestrutura, monitoramento, backups e tarefas operacionais, como provisionamento de servidores e configuração de ambientes.
 title: '[ops]:'
 labels: ['operational']
 assignees: []
