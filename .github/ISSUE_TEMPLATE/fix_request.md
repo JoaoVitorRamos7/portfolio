@@ -6,30 +6,30 @@ title: '[fix]:'
 labels: ['fix']
 assignees: []
 ---
-## Bug Description
+## Descrição do problema
 
 O envio de imagens maiores que 5 MB faz a aplicação travar devido a um estouro de memória.
 
-## Steps to Reproduce
+## Passos para reproduzir
 
 1. Acesse "Upload Image"
 2. Selecione uma imagem com mais de 5 MB
 3. Clique em Upload
 
-## Expected Behavior
+## Comportamento esperado
 
 A imagem deve ser enviada com sucesso ou exibir um erro caso o limite de tamanho seja excedido.
 
-## Actual Behavior
+## Comportamento atual
 
 A aplicação congela e trava após o envio de arquivos grandes.
 
-## Fix Plan
+## Plano de correção
 
 - [ ] Adicionar validação do tamanho do arquivo no cliente
 - [ ] Limitar o tamanho do buffer de upload no backend
 
-## Environment
+## Ambiente
 
 - OS: Windows 11
 - Browser: Chrome v114

@@ -6,20 +6,20 @@ title: '[docs]:'
 labels: ['documentation']
 assignees: []
 ---
-## Summary
+## Resumo
 
 Incluir instruções claras para executar a aplicação com Docker no README.
 
-## Motivation
+## Motivação
 
 Melhorar a integração de novos contribuidores que preferem ambientes conteinerizados.
 
-## Tasks
+## Tarefas
 
 - [ ] Adicionar seção sobre Docker no README
 - [ ] Incluir exemplo de `docker-compose`
 - [ ] Adicionar dicas de solução de problemas
 
-## Related
+## Referências
 
 Issue #12 (Melhorias na integração de novos contribuidores)

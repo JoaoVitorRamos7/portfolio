@@ -8,15 +8,15 @@ assignees: []
 
 ---
 
-## Summary
+## Resumo
 
 Adicionar um botão de alternância para o modo escuro no menu de configurações, permitindo que os usuários alternem entre os temas claro e escuro.
 
-## Motivation
+## Motivação
 
 Solicitado pelos usuários para melhorar a acessibilidade e o conforto visual em ambientes com pouca iluminação.
 
-## Tasks
+## Tarefas
 
 - [ ] Criar componente de alternância
 - [ ] Atualizar o contexto/estado do tema
@@ -24,6 +24,6 @@ Solicitado pelos usuários para melhorar a acessibilidade e o conforto visual em
 - [ ] Adicionar estilos para o tema escuro
 - [ ] Testar a lógica de alternância de tema
 
-## Definition of Done
+## Critérios de conclusão
 
 O botão de alternância do modo escuro está visível nas configurações e mantém a preferência do usuário entre as sessões.
