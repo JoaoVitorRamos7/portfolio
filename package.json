@@ -1,9 +1,9 @@
 {
-  "name": "portfolio",
+  "name": "portifolio",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "http://JoaoVitorRamos7.github.io/",
+  "homepage": "http://JoaoVitorRamos7.github.io/portfolio",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
