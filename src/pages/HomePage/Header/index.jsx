@@ -30,7 +30,7 @@ function Header() {
       <div id="headerContent">
         <div id="headerContainer">
           <article id="ArticleDescription">
-            <h2 id="headerTitle">I'm Jhon</h2>
+            <h2 id="headerTitle">Eu sou João Vitor</h2>
             <p id="headerSubtitle">Desenvolvedor Front-End</p>
             <p id="headerDescription">Transformando ideias em realidade interativa</p>
 
