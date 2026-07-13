@@ -6,17 +6,17 @@ title: '[build]:'
 labels: ['build']
 assignees: []
 ---
-## Summary
+## Resumo
 
 Atualizar a versão do Node para 20.0 e atualizar todas as dependências desatualizadas para manter a segurança e a compatibilidade.
 
-## Tasks
+## Tarefas
 
 - [ ] Atualizar `.nvmrc`
 - [ ] Atualizar as principais dependências (ex.: React, Express)
 - [ ] Corrigir alterações incompatíveis
 - [ ] Atualizar a configuração do pipeline de CI
 
-## Testing
+## Validação
 
 Garantir que o build seja executado localmente e no CI.

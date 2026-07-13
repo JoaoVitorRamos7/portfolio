@@ -7,15 +7,15 @@ title: '[style]:'
 labels: ['style']
 assignees: []
 ---
-## Summary
+## Resumo
 
 Aplicar formatação consistente em todos os componentes utilizando o Prettier.
 
-## Reason
+## Motivo
 
 Melhorar a legibilidade e manter um estilo de código consistente em todo o projeto.
 
-## Tasks
+## Tarefas
 
 - [ ] Executar o Prettier em `src/components/`
 - [ ] Adicionar a configuração do Prettier, caso não exista

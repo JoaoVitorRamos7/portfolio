@@ -7,17 +7,17 @@ title: '[test]:'
 labels: ['test']
 assignees: []
 ---
-## Summary
+## Resumo
 
 Adicionar os testes unitários ausentes para a lógica de login, logout e renovação de token no `AuthService`.
 
-## Tasks
+## Tarefas
 
 - [ ] Testar login com credenciais válidas
 - [ ] Testar login com credenciais inválidas
 - [ ] Testar se o logout remove o token
 - [ ] Testar o comportamento da renovação de token
 
-## Coverage Goal
+## Meta de cobertura
 
 Alcançar pelo menos 90% de cobertura para `auth/AuthService.ts`.

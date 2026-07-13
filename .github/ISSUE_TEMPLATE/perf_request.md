@@ -5,21 +5,21 @@ title: '[perf]:'
 labels: 'performance'
 assignees: ''
 ---
-## Summary
+## Resumo
 
 Utilizar carregamento sob demanda e compressão nas imagens do banner da página inicial para melhorar o tempo de carregamento.
 
-## Current Behavior
+## Comportamento atual
 
 As imagens são carregadas imediatamente, causando lentidão na renderização inicial.
 
-## Improvement Plan
+## Plano de melhoria
 
 - [ ] Habilitar carregamento sob demanda para imagens não críticas
 - [ ] Comprimir as imagens usando WebP
 - [ ] Testar a velocidade de carregamento antes e depois
 
-## Metrics to Watch
+## Métricas a acompanhar
 
 - Pontuação de desempenho no Lighthouse
 - Tempo de carregamento da página

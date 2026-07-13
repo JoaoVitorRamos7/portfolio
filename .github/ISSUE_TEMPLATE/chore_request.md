@@ -6,15 +6,15 @@ title: '[chore]:'
 labels: ['chore']
 assignees: []
 ---
-## Summary
+## Resumo
 
 Atualizar o `.gitignore` para impedir que arquivos do sistema macOS sejam versionados.
 
-## Motivation
+## Motivação
 
 Limpar o repositório e evitar que arquivos desnecessários poluam os diffs.
 
-## Tasks
+## Tarefas
 
 - [ ] Adicionar `.DS_Store` ao `.gitignore`
 - [ ] Remover arquivos `.DS_Store` existentes rastreados
