@@ -9,8 +9,8 @@ permissions:
   contents: write
 
 jobs:
-  deploy:
-    name: Deploy Main Branch
+  build:
+    name: Define a pasta dist e cria artefato
     runs-on: ubuntu-latest
 
     steps:
@@ -31,7 +31,51 @@ jobs:
       - name: Executar predeploy
         run: npm run predeploy
 
-      - name: Executar deploy
-        run: npm run deploy
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Upload da pasta dist
+        uses: actions/upload-artifact@v4
+        with:
+          name: dist
+          path: dist/
+          retention-days: 1
+
+  deploy:
+    name: Deploy do artefato para gh-pages
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Configurar usuário Git
+        run: |
+          git config user.name "CI Bot"
+          git config user.email "ci@example.com"
+
+      - name: Configurar remote
+        run: |
+          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
+
+      - name: Baixar artefato
+        uses: actions/download-artifact@v4
+        with:
+          name: dist
+          path: .
+
+      - name: Ir para a branch gh-pages
+        run: |
+          git fetch origin gh-pages || true
+          git checkout gh-pages || git checkout -b gh-pages
+
+      - name: Commit
+        run: |
+          git add .
+          git commit -m "Atualização automática ${{ github.sha }}" || echo "Nenhuma alteração"
+
+      - name: Push
+        run: |
+          git push origin gh-pages
