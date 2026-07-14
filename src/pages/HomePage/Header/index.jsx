@@ -47,7 +47,7 @@ function Header() {
                 />
               </a>
               <a
-                href="#"
+                href="https://www.linkedin.com/in/joao-vitor-ramos-de-almeida/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
