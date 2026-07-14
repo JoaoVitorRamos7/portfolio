@@ -38,7 +38,7 @@ function Header() {
 
             <div className="flex gap-x-4 mt-4">
               <a 
-                href="https://github.com"
+                href="https://github.com/JoaoVitorRamos7"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -47,7 +47,7 @@ function Header() {
                 />
               </a>
               <a
-                href="https://linkedin.com"
+                href="#"
                 target="_blank"
                 rel="noopener noreferrer"
               >
