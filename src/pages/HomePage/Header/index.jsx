@@ -71,6 +71,8 @@ function Header() {
               className="h-80 lg:h-96"
               src={imageHeader}
               alt="Foto de João Vitor Ramos"
+              width={412}
+              height={384}
             />
           </article>
         </div>
