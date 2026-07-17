@@ -1,8 +1,12 @@
-import Header from './Header/index.jsx' 
+import Header from './Header/index.jsx'
+import Main from './Main/index.jsx'
 
 function HomePage() {
     return(
-        <Header/>
+        <>
+            <Header/>
+            <Main/>
+        </>
     );
 }
 

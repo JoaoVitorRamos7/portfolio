@@ -4,7 +4,7 @@ import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 
 function Header() {
   return (
-    <header>
+    <header id="Home">
       <nav className="bg-primary-light">
         <div className="content-container py-4 flex flex-col sm:flex-row sm:gap-x-24 sm:items-center sm:py-8 ">
           <h2 className="text-3xl font-bold " >
@@ -12,10 +12,10 @@ function Header() {
             <span className="text-primary">Dev</span>
           </h2>
           <div className="flex gap-x-4">
-            <a className="capitalize text-lg tracking-wide hover:text-blue-400 duration-300 " href="#">
+            <a className="capitalize text-lg tracking-wide hover:text-blue-400 duration-300 " href="#Home">
               Home
             </a>
-            <a className="capitalize text-lg tracking-wide hover:text-blue-400 duration-300 "  href="#">
+            <a className="capitalize text-lg tracking-wide hover:text-blue-400 duration-300 "  href="#Skills">
               Skills
             </a>
             <a className="capitalize text-lg tracking-wide hover:text-blue-400 duration-300 "  href="#">
