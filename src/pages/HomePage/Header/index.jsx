@@ -18,7 +18,7 @@ function Header() {
             <a className="capitalize text-lg tracking-wide hover:text-blue-400 duration-300 "  href="#Skills">
               Skills
             </a>
-            <a className="capitalize text-lg tracking-wide hover:text-blue-400 duration-300 "  href="#">
+            <a className="capitalize text-lg tracking-wide hover:text-blue-400 duration-300 "  href="#About">
               Sobre
             </a>
             <a className="capitalize text-lg tracking-wide hover:text-blue-400 duration-300 "  href="#">
