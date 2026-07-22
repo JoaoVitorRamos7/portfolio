@@ -1,4 +1,4 @@
-import imageSectionAbout from "../../../../assets/image/joao2.jpg"
+import imageSectionAbout from "../../../../assets/image/image-joao/joao2.jpg"
 
 function SectionAbout(){
     return(
