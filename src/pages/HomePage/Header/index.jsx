@@ -1,5 +1,5 @@
 import "/src/global.css";
-import imageHeader from "../../../assets/image/joao1.jpg";
+import imageHeader from "../../../assets/image/image-joao/joao1.jpg";
 import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 
 function Header() {
@@ -21,7 +21,7 @@ function Header() {
             <a className="capitalize text-lg tracking-wide hover:text-blue-400 duration-300 "  href="#About">
               Sobre
             </a>
-            <a className="capitalize text-lg tracking-wide hover:text-blue-400 duration-300 "  href="#">
+            <a className="capitalize text-lg tracking-wide hover:text-blue-400 duration-300 "  href="#Projects">
               Projetos
             </a>
           </div>
