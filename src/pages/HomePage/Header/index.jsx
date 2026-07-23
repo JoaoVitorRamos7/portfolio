@@ -24,6 +24,9 @@ function Header() {
             <a className="capitalize text-lg tracking-wide hover:text-blue-400 duration-300 " href="#Projects">
               Projetos
             </a>
+            <a className="capitalize text-lg tracking-wide hover:text-blue-400 duration-300 " href="#Contact">
+              Contato
+            </a>
           </div>
         </div>
       </nav>
