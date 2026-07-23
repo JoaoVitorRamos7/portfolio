@@ -15,13 +15,13 @@ function Header() {
             <a className="capitalize text-lg tracking-wide hover:text-blue-400 duration-300 " href="#Home">
               Home
             </a>
-            <a className="capitalize text-lg tracking-wide hover:text-blue-400 duration-300 "  href="#Skills">
+            <a className="capitalize text-lg tracking-wide hover:text-blue-400 duration-300 " href="#Skills">
               Skills
             </a>
-            <a className="capitalize text-lg tracking-wide hover:text-blue-400 duration-300 "  href="#About">
+            <a className="capitalize text-lg tracking-wide hover:text-blue-400 duration-300 " href="#About">
               Sobre
             </a>
-            <a className="capitalize text-lg tracking-wide hover:text-blue-400 duration-300 "  href="#Projects">
+            <a className="capitalize text-lg tracking-wide hover:text-blue-400 duration-300 " href="#Projects">
               Projetos
             </a>
           </div>
@@ -37,22 +37,22 @@ function Header() {
             </p>
 
             <div className="flex gap-x-4 mt-4">
-              <a 
+              <a
                 href="https://github.com/JoaoVitorRamos7"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <FaGithub
-                className="  h-11 w-11 text-slate-500 hover:black-300"
+                  className="  h-11 w-11 text-slate-500 hover:black-300"
                 />
               </a>
               <a
-                href="https://www.linkedin.com/in/joao-vitor-ramos-de-almeida/"
+                href="https://www.linkedin.com/in/joaoramosalmeida/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <FaLinkedin
-                className="h-11 w-11 text-slate-500 hover:black-300"
+                  className="h-11 w-11 text-slate-500 hover:black-300"
                 />
               </a>
             </div>

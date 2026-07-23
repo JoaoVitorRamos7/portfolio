@@ -2,9 +2,9 @@ import ImageSistemaBibliotecario from "../../../../assets/image/image-projects/s
 import ImageEmBreveDisponivelCinza from "../../../../assets/image/image-projects/embreve-disponivelCinza.png"
 import { FaGithub } from "react-icons/fa";
 
-function SectionProjects(){
-    return(
-        <section id="Projects" className="content-container py-20">
+function SectionProjects() {
+    return (
+        <section id="Projects" className="content-container pt-20 ">
             <div className="border-b border-gray-200 pb-5">
                 <h2 className="text-3xl font-medium tracking-wide capitalize">Projetos</h2>
             </div>
@@ -22,8 +22,8 @@ function SectionProjects(){
                             API REST desenvolvida com C# e ASP.NET Core para gerenciamento de uma biblioteca. O projeto implementa operações CRUD, relacionamentos entre entidades utilizando Entity Framework Core, Repository Pattern e Injeção de Dependência. O objetivo é aplicar boas práticas de desenvolvimento back-end, arquitetura em camadas e persistência de dados em um cenário próximo ao utilizado em aplicações comerciais.
                         </p>
                         <div className="mt-4 flex gap-x-4">
-                            <a href="https://github.com/JoaoVitorRamos7/sistema-blibiotecario-api"target="_blank"rel="noopener noreferrer">
-                                <FaGithub className="h-8 w-8 text-slate-500 :hover-text-black duration-300"/>  
+                            <a href="https://github.com/JoaoVitorRamos7/sistema-blibiotecario-api" target="_blank" rel="noopener noreferrer">
+                                <FaGithub className="h-8 w-8 text-slate-500 :hover-text-black duration-300" />
                             </a>
                         </div>
                     </div>
@@ -42,7 +42,7 @@ function SectionProjects(){
                         </p>
                         <div className="mt-4 flex gap-x-4">
                             <a >
-                                <FaGithub className="h-8 w-8 text-slate-500 :hover-text-black duration-300"/>  
+                                <FaGithub className="h-8 w-8 text-slate-500 :hover-text-black duration-300" />
                             </a>
                         </div>
                     </div>
